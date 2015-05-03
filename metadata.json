@@ -1,0 +1,17 @@
+{
+	"name": "hacking-ssmtp",
+	"version": "0.1.0",
+	"author": "Max Hacking",
+	"license": "GPL-3.0",
+	"summary": "A module to enable easy configuration of SSMTP",
+	"source": "https://github.com/MADhacking/puppet-module-ssmtp",
+	"project_page": "https://github.com/MADHacking",
+	"issues_url": "https://github.com/MADhacking/puppet-module-ssmtp/issues",
+	"tags": [ "ssmtp"
+	],
+	"operatingsystem_support": [{
+			"operatingsystem": "Gentoo"
+		}
+	],
+	"dependencies": []
+}
