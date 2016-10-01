@@ -2,13 +2,15 @@
 
 class ssmtp (
   $root,
-  $mailhub    = 'mail',
-  $port       = undef,
-  $hostname   = undef,
-  $usessl     = false,
-  $usetls     = false,
-  $usetlscert = false,
-  $tlscert    = undef) {
+  $mailhub          = 'mail',
+  $port             = undef,
+  $rewritedomain    = undef,
+  $hostname         = undef,
+  $fromlineoverride = undef,
+  $usessl           = false,
+  $usetls           = false,
+  $usetlscert       = false,
+  $tlscert          = undef) {
 
   include ssmtp::params
 
