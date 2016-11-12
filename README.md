@@ -31,6 +31,8 @@ class { 'ssmtp':
 
 `$port` can be used to specify which port to connect to on the mail hub (default: 25).
 `$hostname` can be used to override the name of the local machine.
+`$rewritedomain` can be used to where will the mail seem to come from.
+`$fromlineoverride` if YES use address in the "from line" of the envelope.
 `$usessl` if set to true then SSL will be used when connecting to the mail hub (default: false).  This will
 also set the default port to 465 unless `$port` is specified.
 `$usetls` if set to true then TLS will be used when connecting to the mail hub (default: false).
