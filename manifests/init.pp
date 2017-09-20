@@ -10,7 +10,8 @@ class ssmtp (
   $usessl           = false,
   $usetls           = false,
   $usetlscert       = false,
-  $tlscert          = undef) {
+  $tlscert          = undef,
+  $debug            = false) {
 
   include ssmtp::params
 
